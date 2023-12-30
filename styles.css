@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.reset-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#resetButton {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#resetButton:hover {
+    background-color: #c82333;
+}
+
+.background {
+    background-image: url(mountain.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.hide {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.settings {
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.settings-content {
+    margin-top: 10px;
+}
+
+#settingIcon {
+    margin-top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007BFF;
+}
+
+#dobInput {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#dobButton {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#dobButton:hover {
+    background-color: #0056b3;
+}
+
+.time-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+p, b {
+    color:white;
+}
+
+#settingIcon:hover {
+    color: #0056b3;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #dobInput {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #dobButton {
+        width: 100%;
+    }
+
+    .time-container {
+        flex-direction: column;
+    }
+}
